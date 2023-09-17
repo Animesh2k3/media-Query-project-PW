@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             
+          @media only screen and (max-width:1280px) {
+            body{
+            background-color: green;
+            }
+            .size4{
+              text-align: centre;
+                        }
+            .size3{
+                    display: none;
+                  }  
+                  .size2{
+                    display: none;
+                  }    
+                  .size1{
+                    display: none;
+                  }
+        }
+
+          @media screen and (max-width:1024px)  {
+            body{
+            background-color:olive;
+            }
+            .size3{
+              display: inline-block;
+              text-align: centre;
+                  }
+            .size4{
+                    display: none;
+                  }
+                  .size2{
+                    display: none;
+                  }
+                  .size1{
+                    display: none;
+                  }
+
+            }
+        @media screen and (max-width:768px)  {
+            body{
+            background-color:aqua;
+            }
+            .size2{
+              display: inline-block;
+              text-align: centre;
+                  }
+                  .size4{
+                    display: none;
+                  }
+                  .size3{
+                    display: none;
+                  }
+                  .size1{
+                    display: none;
+                  }
+          }
+        @media screen and (max-width:500px)  {
+            body{
+            background-color: red;
+            }
+            .size1{
+              display: inline-block;
+              text-align: centre;
+                  }
+                  .size2{
+                    display: none;
+                  }
+                  .size3{
+                    display: none;
+                  }
+                  .size4{
+                    display: none;
+                  }
+          }
+          
+        </style>
+    </head>
+
+    <body>
+      <span class="size4"><h1>This is a Media Query demo page</h1><br>Screen  max-size:1280px</span>
+
+      <span class="size3"><h1>This is a Media Query demo page</h1><br>Screen  max-size:1024px</span>
+
+      <span class="size2"><h1>This is a Media Query demo page</h1><br>Screen  max-size:768px</span>
+
+      <span class="size1"><h1>This is a Media Query demo page</h1><br>Screen  max-size:500px</span>
+     
+       
+    </body>
+</html>
